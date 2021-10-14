@@ -1,10 +1,8 @@
 .banner {
-    /* position: relative; */
     width: 475px;
     height: 215px;
     margin-left: auto;
     margin-right: auto;
-    /* display: grid; */
     overflow: hidden;
 }
 .imgLine {
@@ -32,16 +30,3 @@
     transform: scale(1.1);
     transition: all ease 1s; 
 }
-
-/* .banner .img_banner {
-    animation-name: switch;
-    animation-duration: 1s;
-}
-@keyframes switch {
-    from {
-        opacity: 0
-    }
-    to {
-        opacity: 1
-    }
-} */
