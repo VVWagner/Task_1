@@ -1,0 +1,47 @@
+.banner {
+    /* position: relative; */
+    width: 475px;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: grid; */
+    overflow: hidden;
+}
+.imgLine {
+    width: 950px;
+    height: 215px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.banner .previous, .banner .next {
+    cursor: pointer;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 10px;
+    border-radius: 0 3px 3px 0;
+}
+.banner .next {
+    margin-left: 427px;
+}
+
+.banner .previous:hover,
+.banner .next:hover {
+    opacity: 80%;
+    transform: scale(1.1);
+    transition: all ease 1s; 
+}
+
+/* .banner .img_banner {
+    animation-name: switch;
+    animation-duration: 1s;
+}
+@keyframes switch {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+} */
